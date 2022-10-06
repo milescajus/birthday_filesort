@@ -8,3 +8,4 @@ Does not move files if the destination contains an existing file of the same nam
 
 ## Issues
 - based on `st_birthtime`, which may not be defined on all filesystems
+- using hardcoded size limits rather than platform variables such as MAXPATHLEN
